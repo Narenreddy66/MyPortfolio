@@ -1,0 +1,15 @@
+
+/* Contact.css */
+.contact {
+  padding: 80px;
+  background: linear-gradient(to right, #1e293b, #0f172a);
+  color: #e2e8f0;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #94a3b8;
+}

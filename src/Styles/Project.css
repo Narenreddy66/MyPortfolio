@@ -1,0 +1,25 @@
+.projects {
+  padding: 60px;
+  background: #0f172a;
+  color: #f1f5f9;
+  animation: fadeIn 1s ease;
+}
+
+.project-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 40px;
+}
+
+/* Section Divider */
+.projects::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  margin: 0 auto 20px auto;
+  background: #38bdf8;
+  border-radius: 2px;
+}
+
