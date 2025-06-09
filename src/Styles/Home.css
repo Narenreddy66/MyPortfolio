@@ -45,3 +45,40 @@
   transform: scale(1.05);
   box-shadow: 0 5px 20px rgba(14, 165, 233, 0.4);
 }
+.contact {
+  padding: 80px 20px;
+  background: linear-gradient(to right, var(--secondary-color), var(--bg-color));
+  color: var(--text-color);
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #94a3b8;
+}
+
+.call-btn, .whatsapp-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+  transition: background 0.3s ease;
+}
+
+.call-btn:hover, .whatsapp-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}

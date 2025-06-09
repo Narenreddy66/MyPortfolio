@@ -50,3 +50,87 @@ body, html {
 .theme-toggle:hover {
   background: var(--accent-color);
 }
+@media (max-width: 768px) {
+  .about {
+    padding: 50px 20px;
+  }
+
+  .skills {
+    padding: 40px 15px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+
+  .skill {
+    max-width: 100px;
+    padding: 15px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .resume-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about img.profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .resume-btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .theme-toggle {
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* Section Reveal Animations */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+/* Fade Animations */
+[data-aos="fade-up"] {
+  transform: translateY(40px);
+}
+
+[data-aos="fade-up"].aos-animate {
+  transform: translateY(0);
+}
+
+[data-aos="zoom-in"] {
+  transform: scale(0.8);
+}
+
+[data-aos="zoom-in"].aos-animate {
+  transform: scale(1);
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(-40px);
+}
+
+[data-aos="fade-left"].aos-animate {
+  transform: translateX(0);
+}
