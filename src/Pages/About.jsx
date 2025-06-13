@@ -9,8 +9,8 @@ function About() {
   <h2>About Me</h2>
    <div className="links">
     <a href="https://github.com/Narenreddy66" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="https://www.linkedin.com/in/narendharreddy-bontalwad" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    {/* <a className="resume-btn" href="/home/narendhar/my-portfolio/src/assets/Naukri_BontalwadNarendharreddy[2y_1m].pdf" download>  Download Resume </a> */}
+    <a href="www.linkedin.com/in/narendharreddy-bontalwad-20ab431a1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="/assets/Naukri_BontalwadNarendharreddy[2y_1m].pdf" download>  Download Resume </a>
   </div>
   <p>I’m Narendharreddy Bontalwad, a passionate Frontend Developer with 2+ years of experience crafting modern, responsive, and intuitive user interfaces using Vue.js, React.js, and Tailwind CSS. My work is focused on performance, user experience, and scalable architecture.</p>
   <p>I’ve worked on real-time systems, POS applications, dynamic form builders, and menu apps for leading clients like Marriott and Parak Hyat. I'm also experienced in integrating REST APIs and WebSocket services with Frappe 15 backends.</p>

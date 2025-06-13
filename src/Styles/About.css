@@ -114,3 +114,23 @@
   font-size: 14px;
   color: var(--text-color);
 }
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.resume-btn:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+  color: var(--bg-color);
+}
