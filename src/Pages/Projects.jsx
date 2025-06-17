@@ -8,7 +8,7 @@ function Projects() {
       title: 'Ezy POS',
       tech: 'Vue.js, Nuxt.js, Tailwind, Frappe, WebSocket',
       description: 'POS system for sales, billing, inventory, and reporting with real-time updates.',
-      image: '/assets/ezytags1.png',
+      image: '/assets/ezypos',
     },
     {
       title: 'Ezy Tags',
