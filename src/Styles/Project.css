@@ -1,25 +1,32 @@
-.projects {
-  padding: 60px;
-  background: #0f172a;
-  color: #f1f5f9;
-  animation: fadeIn 1s ease;
+.projects-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.project-list {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 40px;
+.projects-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.nav-buttons {
+  margin-top: 30px;
 }
 
-/* Section Divider */
-.projects::before {
-  content: "";
-  display: block;
-  height: 4px;
-  width: 100px;
-  margin: 0 auto 20px auto;
-  background: #38bdf8;
-  border-radius: 2px;
+.nav-buttons button {
+  background-color: #0d6efd;
+  color: white;
+  padding: 12px 24px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.nav-buttons button:hover {
+  background-color: #0b5ed7;
+}
